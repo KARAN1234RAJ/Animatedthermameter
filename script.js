@@ -1,7 +1,7 @@
 const tempload= ()=>{
      let temp = document.getElementById('temp');
      temp.innerHTML='&#xf2cb';
-     temp.style.color="#ffffff";
+     temp.style.color="#00FF00";
     
 
      setTimeout(()=>{
@@ -15,7 +15,7 @@ const tempload= ()=>{
      },2000)
      setTimeout(()=>{
           temp.innerHTML='&#xf2c8'; 
-          temp.style.color="#ff4d4d"
+          temp.style.color="#ff4500"
      },3000)
      setTimeout(()=>{
           temp.innerHTML='&#xf2c7'; 
